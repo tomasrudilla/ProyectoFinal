@@ -1,0 +1,72 @@
+.portada-index {
+    height: 91vh;
+    background-image: url(../img/porshe2.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 100px;
+
+
+    .texto-portada {
+        background-color: rgba(85, 79, 79, 0.414);
+        justify-content: end;
+        padding: 16px;
+        border-radius: 10px;
+        align-items: center;
+        font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+    }
+}
+
+.titulo-home {
+    text-align: center;
+}
+
+
+
+.boton-tarjeta {
+    padding: 10px 8px;
+    display: inline-block;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+.productos-index {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 100px;
+    margin-bottom: 40px;
+
+    .tarjeta-producto {
+        border: 2px solid black;
+        width: 250px;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-bottom: 10px;
+        height: auto;
+
+        & img {
+            width: 100%;
+            object-fit: cover;
+        }
+
+
+
+
+        .tarjeta-body {
+            border-top: 2px solid black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            padding: 0px;
+            background-color: white;
+            padding-bottom: 10px;
+        }
+    }
+}

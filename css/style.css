@@ -1,0 +1,352 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: white;
+}
+
+body {
+  background-color: white;
+}
+
+.contenedor-imagen {
+  height: 300px;
+  width: 300px;
+}
+
+.imagen-achicada {
+  width: 100%;
+  height: 100%;
+}
+
+.caja {
+  display: flex;
+  padding-bottom: 100px;
+  padding-top: 40px;
+}
+
+.caja > div {
+  width: 50%;
+  padding: 5px;
+}
+
+.img-consesionaria {
+  width: 600px;
+  height: auto;
+}
+
+
+header {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .logo img {
+  width: 50px;
+}
+
+.nav-links {
+  display: flex;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  border-top: 1px solid white;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+}
+footer-wrapper {
+  display: flex;
+}
+footer-redes ul li a {
+  color: white;
+}
+footer-redes ul li a i {
+  font-size: 1.3rem;
+}
+
+.portada-index {
+  height: 91vh;
+  background-image: url(../img/porshe2.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding: 100px;
+}
+.portada-index .texto-portada {
+  background-color: rgba(85, 79, 79, 0.414);
+  justify-content: end;
+  padding: 16px;
+  border-radius: 10px;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+
+.titulo-home {
+  text-align: center;
+}
+
+.boton-tarjeta {
+  padding: 10px 8px;
+  display: inline-block;
+  color: black;
+  border-radius: 10px;
+  border: 1px solid black;
+  text-decoration: none;
+}
+
+.productos-index {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 100px;
+  margin-bottom: 40px;
+}
+.productos-index .tarjeta-producto {
+  border: 2px solid black;
+  width: 250px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  height: auto;
+}
+.productos-index .tarjeta-producto img {
+  width: 100%;
+  object-fit: cover;
+}
+.productos-index .tarjeta-producto .tarjeta-body {
+  border-top: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 0px;
+  background-color: white;
+  padding-bottom: 10px;
+}
+
+.contenedor-formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding-bottom: 500px;
+  padding-top: 400px;
+}
+.contenedor-formulario fieldset {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+.contenedor-formulario fieldset div {
+  margin-bottom: 10px;
+}
+.contenedor-formulario fieldset.contenedor-form {
+  width: 90%;
+  max-width: 700px;
+  height: 700px;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+}
+.contenedor-formulario legend {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.tituloContacto {
+  font-family: "Lora", sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.container-contacto {
+  width: 100%;
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mapa {
+  text-align: center;
+  height: 460px;
+  border: 2px solid;
+  margin-bottom: 40px;
+}
+
+.info {
+  padding: 10px;
+  line-height: 2;
+  text-align: center;
+  text-decoration: double;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+}
+
+.caja-quienes {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.caja-quienes .titulo-quienes {
+  text-align: center;
+  text-decoration: underline;
+  color: black;
+}
+.caja-quienes .texto-quienes {
+  padding-top: 30px;
+  font-size: 1.25rem;
+  font-family: "Raleway", sans-serif;
+  color: black;
+}
+
+.metodos {
+  text-align: center;
+  padding: 30px;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.c-item {
+  height: 480px;
+}
+
+.c-img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.oficinas {
+  font-style: italic;
+  text-decoration: underline;
+  text-align: center;
+  padding: 30px;
+  font-size: 1.25;
+}
+
+.contenedor-metodos {
+  padding-bottom: 50px;
+  margin-left: 40px;
+}
+.contenedor-metodos .tarjeta-pagos {
+  margin-top: 20px;
+}
+.contenedor-metodos .tarjeta-pagos .card {
+  width: 18rem;
+}
+.contenedor-metodos .tarjeta-pagos .card .card-img-top {
+  max-width: 100%;
+}
+.contenedor-metodos .tarjeta-pagos .card .card-body {
+  text-align: center;
+}
+
+.titulo-quienes {
+  padding-top: 40px;
+}
+
+.titulo-metodos-nos {
+  text-align: center;
+}
+
+.productos {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.productos .product {
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  margin-left: 15px;
+  margin-top: 20px;
+  text-align: center;
+  width: 320px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+  display: inline-block;
+}
+.productos .product img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.productos .product h2 {
+  font-size: 1.5rem;
+  margin: 0;
+  color: #333;
+}
+.productos .product .Precio {
+  font-size: 1.25rem;
+  color: #e74c3c;
+  margin-top: 5px;
+}
+.productos .product .boton-compra {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.productos .product .boton-compra:hover {
+  background-color: red;
+}
+
+.productos-autos {
+  text-align: center;
+  padding-top: 30px;
+}
+
+/* Media Queries Celular */
+@media screen and (min-width: 350px) and (max-width: 1300px) {
+    .info {
+      padding-bottom: 20px;
+    }
+    .footer-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .footer-info,
+    .footer-redes {
+      width: 100%;
+    }
+  }
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    .productos-index {
+      margin-left: 45px;
+    }
+    .product {
+      margin-left: 5px;
+    }
+  }
+
+/*# sourceMappingURL=style.css.map */

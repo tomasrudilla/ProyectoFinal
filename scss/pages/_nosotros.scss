@@ -1,0 +1,97 @@
+.caja-quienes {
+    margin-left: 40px;
+    margin-right: 40px;
+
+    .titulo-quienes {
+        text-align: center;
+        text-decoration: underline;
+        color: black;
+    }
+
+    .texto-quienes {
+        padding-top: 30px;
+        font-size: 1.25rem;
+        font-family: 'Raleway', sans-serif;
+        color: black;
+    }
+
+}
+
+
+
+
+
+.metodos {
+    text-align: center;
+    padding: 30px;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.c-item {
+    height: 480px;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.oficinas {
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+    padding: 30px;
+    font-size: 1.25;
+}
+
+.contenedor-metodos {
+    padding-bottom: 50px;
+    margin-left: 40px;
+
+    
+
+    .tarjeta-pagos {
+        margin-top: 20px;
+    
+        .card {
+            width: 18rem;
+            
+            .card-img-top {
+                max-width: 100%;
+            }
+
+            .card-body {
+                text-align: center;
+            }
+           
+        }
+    }
+
+
+}
+
+
+
+
+
+.titulo-quienes {
+    padding-top: 40px;
+}
+
+.titulo-metodos-nos {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
